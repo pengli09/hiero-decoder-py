@@ -1,0 +1,31 @@
+[DEFAULT]
+base
+
+[weights]
+lex-sgt 0.11
+lex-tgs 0.12
+trans-sgt 0.13
+trans-tgs 0.14
+word-count 0.15
+rule-count -0.16
+glue-rule-count -0.17
+lm 0.18
+
+[data]
+rules %(base)s/../rules.filtered-mt06.txt.gz
+
+lm-file %(base)s/../../../../../lm/xinhua-lowercase/gigaword-eng-v5-xinhua-lowercase-interpolated-order-4.arpa.gz
+lm-order 4
+
+[param]
+X-beta 30 
+X-beamsize 30
+
+S-beta 30
+S-beamsize 15
+
+rule-beamsize 100 
+
+max-X-len 10
+
+epsilon 0
