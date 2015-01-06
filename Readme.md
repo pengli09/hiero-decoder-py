@@ -1,5 +1,7 @@
 # Hierarchical phrase-based translation decoder
 
+This work was done while Peng Li was a Ph.D. student of Tsinghua University.
+
 This is a hierarchical phrase-based translation decoder which supports parallel decoding. New feature functions can also be implemented easily.
 
 ## Prerequisites
