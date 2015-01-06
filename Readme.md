@@ -59,6 +59,6 @@ If you want to implement a new feature function, you only need to touch two piec
 
 ## Demo
 
-You can find demo data at <http://nlp.csai.tsinghua.edu.cn/~lpeng/software/hiero-decoder-py/hiero-decoder-py-demo.zip>.
+You can find demo data under the folder `demo-data`.
 
 
